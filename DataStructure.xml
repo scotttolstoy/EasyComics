@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Panels>
-	<panel Number="1">
-		<title>Paragraph #1</title>
+	<panel Number="1" background="background.jpg">
+		<title>Paragraph #1</title> <!-- What is the reason of this element? Where it should be placed? -->
 		<characters>
 			<character>
 				<Name>Boy</Name>
-				<Emotion>Wonder</Emotion>				
-			</character>
-			<layer Number="1">
-
-			</layer>
+				<Image>boy.png</Image>
+				<Emotion>Wonder</Emotion> 				
+				<Text position="Top">omg dude how can you...</Text>				
+				<Position>
+					<HorizantalAligment>Left</HorizantalAligment>
+					<VerticalAligment>Bottom</VerticalAligment>
+					<ZIndex>0</ZIndex> <!-- Like in HTML --> 
+				</Position>
+				<Size>Medium</Size>
+			</character>			
 		</characters>
 	</panel>
 </Panels>
