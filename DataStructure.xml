@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Panels>
+	<panel Number="1">
+		<title>Paragraph #1</title>
+		<characters>
+			<character>
+				<Name>Boy</Name>
+				<Emotion>Wonder</Emotion>				
+			</character>
+			<layer Number="1">
+
+			</layer>
+		</characters>
+	</panel>
+</Panels>
