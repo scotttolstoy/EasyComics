@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body sessionId="1122331" date="04.15.2013 14:45:00">
+  <panels>
+    <panel title="Panel #1" order="1">
+      <background></background>
+      <characters>
+        <character type="Boy" size="large" emotion="horror" layer="1">
+          <position>left</position>
+          <text>
+            Hi!
+            How are you?
+          </text>
+        </character>
+        <character type="Girl" size="medium" emotion="smile" layer="2">
+          <position>right</position>
+          <text>
+            Hi!
+            Everything is OK
+            And you?
+          </text>
+        </character>
+      </characters>
+    </panel>
+  </panels>
+</body>
