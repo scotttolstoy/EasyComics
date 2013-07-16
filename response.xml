@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <body sessionId="1122331" date="04.15.2013 14:45:00">
   <panels>
-    <panel title="Panel #1" order="1">
-      <background></background>
-      <characters>
-        <character type="Boy" size="large" emotion="horror" layer="1">
-          <position>left</position>
-          <text>
-            Hi!
-            How are you?
-          </text>
-        </character>
-        <character type="Girl" size="medium" emotion="smile" layer="2">
-          <position>right</position>
-          <text>
-            Hi!
-            Everything is OK
-            And you?
-          </text>
-        </character>
-      </characters>
+    <panel title="Panel #1" order="1" size="1">
+      <layers>
+         <layer Value="5">Layer05_Default.jpg</layer>
+         <layer Value="4">
+            <objects>
+             <object type="Text">   
+               <position>left</position>          
+               <text>How are you doing?</text>
+             <object>
+             <object type="Text">
+               <position>right</position>
+               <text>Hi! Everything is OK. And you?</text>
+             </object>
+            </objects>
+         </layer>
+         <layer value="3">
+            <objects>
+              <object type="character" name="boy" size="medium">
+                 <position>Left-Bottom</position>
+                 <image>boy_001_smile_001.jpg</image>
+              <object>
+              <object type="character" name="girl" size="medium">
+                <position>Right-Bottom</position>
+                <image>girl_001_smile_001.jpg</image>
+              <object>
+            </objects>
+         </layer> 
+      </layers>
     </panel>
   </panels>
 </body>
